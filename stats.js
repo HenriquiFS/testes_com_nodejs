@@ -9,7 +9,7 @@ setInterval( () => {
   const percents = parseInt( (mem/total)*100 );
 
   const stats = {
-    free: `${mem} MB`,
+    using: `${mem} MB`,
     total: `${total} MB`,
     usage: `${percents}%`,
   }
