@@ -1,4 +1,7 @@
-import { freemem, totalmem } from 'node:os';
+const os = require('os')
+const log = require('./logger')
+
+const { freemem, totalmem } = os
 
 setInterval( () => {
   const mem = parseInt(freemem() / 1024 / 1024);
@@ -13,4 +16,6 @@ setInterval( () => {
 
   console.clear()
   console.table(stats)
+  log(`${JSON.stringify(stats)}\n`)
+
 }, 1000)
