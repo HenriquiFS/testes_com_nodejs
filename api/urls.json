@@ -11,6 +11,10 @@
     {
       "name": "Rocketseat",
       "url": "http://rocketseat.com.br"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/search"
     }
   ]
 }
