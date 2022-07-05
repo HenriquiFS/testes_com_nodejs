@@ -5,6 +5,10 @@
       "url": "http://youtube.com"
     },
     {
+      "name": "Google",
+      "url": "http://google.com"
+    },
+    {
       "name": "Rocketseat",
       "url": "http://rocketseat.com.br"
     }
